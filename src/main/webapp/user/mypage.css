@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: '굴림체';
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://i.imgur.com/r3rrH2f.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+	margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+
+#list-title {
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    width: 76%;
+    height: 450px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-button {
+    margin-left: auto; /* 이 부분을 추가하여 오른쪽으로 이동 */
+    margin-right: 14%;
+    margin-bottom: 8px;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.main-button {
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 16%;
+    left: 15%;
+    z-index: 2;
+}
+
+.main-button img {
+    width: auto;
+    height: 140px;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+label {
+    color: white;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+    font-size: 30px;
+    width: 40%;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+/* 스크롤이 있는 리스트 영역 스타일링 */
+.list-container {
+    width: 48%; /* 각 리스트 컨테이너의 너비를 조절 */
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px;
+}
+
+.my-list {
+    overflow-y: auto; /* 세로 스크롤이 필요한 경우 스크롤을 활성화 */
+    max-height: 80%; /* 리스트 컨테이너의 최대 높이를 지정 */
+    list-style: decimal;
+}
+
+.my-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.my-list li:last-child {
+    border-bottom: none; /* 마지막 리스트 아이템의 하단 경계 제거 */
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 4px 6px 9px 0px rgba(0, 0, 0, 0.36);
+    margin: 4px 3px 10px 3px;
+    padding: 4px 8px;
+}

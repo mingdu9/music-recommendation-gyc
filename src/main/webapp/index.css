@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://i.imgur.com/r3rrH2f.jpg);
+    background-size: cover;
+    overflow: scroll;
+    font-family: "굴림체";
+}
+
+button {
+	font-family: "굴림체";
+}
+
+nav {
+    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#title {
+    height: 170px;
+    display: block; /* 이미지를 블록 레벨 요소로 설정 (가운데 정렬을 위해 필요) */
+    margin: 0 auto;
+}
+
+#login-plz {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    z-index: 3;
+}
+
+#background-bear {
+    opacity: 0.5;
+    width: 52%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    z-index: -1;
+}
+
+header {
+    margin: 30px 30px 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.auth-button {
+    position: relative;
+    font-style: bold;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    border-color: rgba(240, 187, 218, 0.638);
+    font-size: 20px;
+    background-color: rgba(240, 187, 218, 0.488);
+}
+
+.my-page-button {
+    width: 135px;
+}
+
+.recommend-button {
+    width: 470px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background: rgb(138, 159, 194);
+    background: linear-gradient(
+            0deg,
+            rgb(102, 133, 182) 7%,
+            rgba(171, 192, 228, 1) 80%,
+            rgba(254, 255, 255, 1) 100%
+    );
+    font-size: 50px;
+    margin: 30px 10px 40px 15%;
+    padding: 40px 60px;
+}
+
+.recommend-button span {
+    text-decoration: solid underline;
+    vertical-align: middle;
+}

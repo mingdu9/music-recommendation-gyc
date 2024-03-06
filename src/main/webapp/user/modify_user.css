@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://i.imgur.com/r3rrH2f.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px 40px;
+    font-family: '굴림체', GulimChe, serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+
+main {
+    width: 73%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 31px 31px 31px 31px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#list-title {
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.input-password {
+    height: 100%;
+}
+
+.label {
+    display: inline-block;
+    padding: 10px 50px 10px 8px;
+}
+
+#password {
+    flex: 1;
+    display: inline-block;
+    margin-right: 40px;
+    width: 50%;
+}
+
+.submit-button {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-left: 40px;
+}
+
+#main-button {
+    background-color: transparent;
+    border: 0px;
+    position: absolute;
+    right: 10%;
+}
+
+#main-button img {
+    width: auto;
+    height: 140px;
+}
+
+.divider {
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 90%;
+    height: 3px;
+    border-radius: 20px;
+    margin: 20px 50px 20px 20px;
+}
+
+#withdraw span {
+    text-decoration: underline;
+}

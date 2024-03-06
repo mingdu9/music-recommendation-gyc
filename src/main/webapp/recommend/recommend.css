@@ -1,0 +1,163 @@
+body {
+    background-image: url(https://i.imgur.com/r3rrH2f.jpg);
+    background-size: cover;
+    font-family: "굴림체";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 20%;
+}
+
+td {
+	padding-right: 1px;
+	padding-left: 5px;
+}
+.td_text {
+	padding-top: 5px;
+	padding-left: 7px;
+	padding-right: 25px;
+}
+
+#background-bear {
+    opacity: 0.5;
+    width: 55%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: -1;
+}
+
+#title {
+    height: 150px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 76%;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 0 auto;
+    
+}
+
+.recent-button {
+	border: none;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 13%;
+    right: 14%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.recent-button img {
+    width: auto;
+    height: 100px;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.main-button {
+    border: none;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.main-button img {
+    width: auto;
+    height: 140px;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.text-input {
+	margin-left: 5px;
+	margin-right: 5px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.recommend-button {
+    margin-top: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.recommend-button img {
+    width: 20%;
+    height: auto;
+}
+
+.hidden {
+	display: none;
+}
+
+.tag {
+    margin: 3px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 4px 6px 9px 0px rgba(0, 0, 0, 0.36);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.tag.clicked {
+	margin: 3px;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 4px 6px 9px 0px rgba(0, 0, 0, 0.36);
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tag-container {
+	height: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    overflow: scroll;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 21px;
+}
+
+.tag-container::-webkit-scrollbar {
+    display: none;
+}
+
+#youtube-link {
+    width: 100%;
+}
+
+input[type='text'] {
+    font-size: 15px;
+}
+
+#circum {
+    overflow-x: scroll;
+    height: 34px;
+}
+
